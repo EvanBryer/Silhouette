@@ -1,5 +1,5 @@
 import argparse
-parser = argparse.ArgumentParser(description='Perform k-Means clustering on multilingual string data')
+parser = argparse.ArgumentParser(description='Perform Sillhouette analysis for k-means clustering.')
 req = parser.add_argument_group('Required arguments')
 req.add_argument("-p", "--path", help="path to file of new line delimited strings.", required=True)
 req.add_argument("-s", "--start", help="Starting number of clusters. Must be > 1.", type=int, required=True)
